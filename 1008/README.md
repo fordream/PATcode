@@ -14,8 +14,9 @@ For each test case, print the total time on a single line.
 
 **Sample Input:**
 
+4
 3 2 3 1
 
 **Sample Output:**
 
-41
+56
