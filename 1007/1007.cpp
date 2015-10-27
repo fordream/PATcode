@@ -9,9 +9,12 @@
 using namespace std;
 
 int main() {
-    int n,start = 0, end = 0, start_temp = 0, sum = 0, max = 0, input[1000];
+    int n,start = 0, end = 0, start_temp = 0, sum = 0, max = 0, input[10000];
     bool all_negtive = true;
     cin >> n;
+    if(n < 0) {
+    	return 0;
+    }
     for(int i=0;i<n;i++) {
         cin >> input[i];
         if(input[i] > 0) {
